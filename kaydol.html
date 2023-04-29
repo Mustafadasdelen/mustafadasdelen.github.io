@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Tilt+Prism&display=swap" rel="stylesheet">
+<style>
+    @media screen and (min-width: 1200px) and (max-width: 1465px){
+        .hak-orta{
+        width: 1200px;
+        height: 750px;
+        }
+        .grs-orta-right-alt-form{
+        width: 50%;
+        height: 55%;
+        }
+        .smedya{
+            left: 10%;
+        }
+        .smedya img{
+            width: 100px;
+        }
+        #untlnsifre{
+            margin-right: 10%;
+        }
+    }
+    @media screen and (min-width : 900px) and (max-width : 1199px){
+        .hak-orta{
+        width: 900px;
+        height: 750px;
+        }
+        .hak-orta-left{
+        width: 26%;
+        }
+        .kydl-orta-right-alt{
+        width: 75%;
+        height: 55%;
+        }
+        .smedya{
+            left: 10%;
+        }
+        .smedya img{
+            width: 100px;
+        }
+        #untlnsifre{
+            margin-right: 10%;
+        }
+    }
+    @media screen and (min-width : 768px) and (max-width : 899px){
+        .hak-orta{
+            width: 768px;
+            height: 750px;
+        }
+        .hak-orta-left{
+            width: 24%;
+        }
+        .kydl-orta-right-alt{
+            width: 80%;
+            height: 55%;
+        }
+        .smedya{
+            left: 10%;
+        }
+        .smedya img{
+            width: 100px;
+        }
+        #untlnsifre{
+            margin-right: 10%;
+        }
+    }
+    @media screen and (min-width : 525px) and (max-width : 767px){
+        .hak-orta{
+            flex-direction: column;
+            width: 525px;
+            height: 850px;
+        }
+        .hak-orta-left{
+        width: 26%;
+        }
+        .kydl-orta-right-alt{
+        width: 70%;
+        height: 65%;
+        }
+        .smedya{
+            left: 10%;
+        }
+        .smedya img{
+            width: 90px;
+        }
+        #untlnsifre{
+            margin-right: 7%;
+            font-size: 15px;
+        }
+        .hak-orta-left{
+            display: flex;
+            flex-direction: row;
+            height: 25%;
+            width: 100%;
+        }
+        .hak-orta-left-ust img{
+            height: 85%;
+        }
+        .hak-orta-left-ust{
+            width: 28%;
+        }
+        .hak-orta-left-alt{
+            width: 22%;
+        }
+        .hak-orta-left-alt a{
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FEB938;
+        font-weight: bold;
+        font-size: 18px;
+        width: 100%;
+        height: 40px;
+        padding-top: 9px;
+        text-align: center;
+        background-color: black;
+        border-radius: 30px;
+        }
+        #ansyf{
+        top: 50px;
+        left: 40px;
+        }
+        #hakkmd{
+        top: 120px;
+        left: 40px;
+        }
+        #grs{
+        top: 50px;
+        left: 200px;
+        }
+        #kydl{
+        top: 120px;
+        left: 200px;
+        }
+        .hak-orta-right{
+            width: 100%;
+            height: 75%;
+        }
+    }
+    @media screen and (min-width : 375px) and (max-width : 524px){
+        .hak-orta{
+            flex-direction: column;
+            width: 355px;
+            height: 850px;
+        }
+        .formdiv{
+            display: flex;
+            flex-direction: column;
+        }
+        #textbox2{
+            width: 100%;
+        }
+        #button1{
+            width: 100%;
+        }
+        .kydl-orta-right-alt{
+        width: 90%;
+        height: 85%;
+        }
+        .smedya{
+            left: 9%;
+            top: 85%;
+        }
+        .smedya img{
+            width: 80px;
+        }
+        #untlnsifre{
+            margin-right: 7%;
+            font-size: 13px;
+        }
+        .hak-orta-left{
+            display: flex;
+            flex-direction: row;
+            height: 20%;
+            width: 100%;
+        }
+        .hak-orta-left-ust img{
+            height: 70%;
+        }
+        .hak-orta-left-ust{
+            width: 30%;
+        }
+        .hak-orta-left-alt{
+            width: 50%;
+        }
+        .hak-orta-left-alt a{
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FEB938;
+        font-weight: bold;
+        font-size: 15px;
+        width: 85%;
+        height: 30px;
+        padding-top: 5px;
+        text-align: center;
+        background-color: black;
+        border-radius: 30px;
+        }
+        #ansyf{
+        top: 10px;
+        left: 50px;
+        }
+        #hakkmd{
+        top: 50px;
+        left: 50px;
+        }
+        #grs{
+        top: 90px;
+        left: 50px;
+        }
+        #kydl{
+        top: 130px;
+        left: 50px;
+        }
+        .hak-orta-right{
+            width: 100%;
+            height: 85%;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hak-orta">
+            <div class="hak-orta-left">
+               <div class="hak-orta-left-ust">
+                <img src="image/Untitled-1.fw.png" alt="">
+                </div>
+               <div class="hak-orta-left-alt">
+                <a id="ansyf" href="index.html">Anasayfa</a>
+                <a id="hakkmd" href="hakkimda.html">Hakkımda</a>
+                <a id="grs" href="giris.html">Giriş</a>
+                <a id="kydl" href="kaydol.html">Kaydol</a>
+               </div>
+            </div>
+            <div class="hak-orta-right">
+                <div class="kydl-orta-right-alt">
+                    <form action="">
+                            <div class="formdiv">
+                            <input type="text" name="ad" placeholder="Ad" id="textbox2" required>
+                            <input type="text" name="sifre" placeholder="Soyad" id="textbox2" required>
+                            </div>
+                            <div class="formdiv">
+                            <input type="text" name="ad" placeholder="E-posta" id="textbox2" required>
+                            <input type="text" name="sifre" placeholder="Kullanıcı Adı" id="textbox2" required>
+                            </div>
+                            <div class="formdiv">
+                                <input type="password" name="ad" placeholder="Şifre" id="textbox2" required>
+                                <input type="password" name="sifre" placeholder="Şifre Tekrar" id="textbox2" required>
+                            </div>
+                            <div class="formdiv">
+                                <button id="button1">KAYDOL</button>
+                            </div>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-ust">
+            <div class="footer-ust-left">
+                <a href="index.html">Anasayfa</a>
+                <a href="hakkimda.html">Hakkımda</a>
+                <a href="giris.html">Giriş</a>
+                <a href="kaydol.html">Kaydol</a>
+            </div>
+        </div>
+        <div class="footer-alt">
+            <div class="footer-alt-left">
+                <p>© Copyright 2023 | Tüm Hakları Saklıdır</p>
+            </div>
+                <div class="footer-alt-right">
+                    <a href="https://www.instagram.com/"><img src="image/new-Instagram-logo-white-glyph.png" alt=""></a>
+                    <a href="https://tr-tr.facebook.com/"><img src="image/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png" alt=""></a>
+                    <a href="https://twitter.com/?lang=tr"><img src="image/1277234-middle.fw.png" alt=""></a>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>

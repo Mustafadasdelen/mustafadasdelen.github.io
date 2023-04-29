@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Tilt+Prism&display=swap" rel="stylesheet">
+<style>
+@media screen and (min-width: 1200px) and (max-width: 1365px){
+        .orta{
+            width: 1200px;
+            height: 750px;
+        }
+        #mrb{
+        left: 100px;
+        font-size: 40px;
+    }
+    #ben{
+        left: 100px;
+        font-size: 60px;
+    }
+    #mst{
+        top: -8px;
+        left: 170px;
+        font-size: 65px;
+    }
+    .orta-left-1{
+        left: 100px;
+        width: 75%;
+    }
+    .orta-left-1 h4{
+        font-size: 22px;
+    }
+    .orta-left p{
+        left: 100px;
+    }
+    .orta-left button{
+        left: 100px;
+    }
+    .orta-left button:hover{
+        left: 105px;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1199px)  {
+    .orta{
+        width: 768px;
+        height: 850px;
+        flex-direction: column;
+        }
+    .orta-left{
+        width: 100%;
+        }
+    .orta-right{
+        width: 100%;
+        }
+    .orta-right1 img{
+        width: 50%;
+        top: 60px;
+        left: 170px;
+        }
+    .sagmenu{
+        position: absolute;
+        top: 65px;
+        border-radius: 30px;
+        width: 40px;
+        height: 300px;
+        background-color: #FEB938;
+    }
+        #mrb{
+        left: 100px;
+        font-size: 30px;
+        top: 70px;
+    }
+    #ben{
+        left: 100px;
+        font-size: 50px;
+        top: 130px;
+    }
+    #mst{
+        top: -8px;
+        left: 150px;
+        font-size: 55px;
+    }
+    .orta-left-1{
+        left: 100px;
+        width: 60%;
+        top: 210px;
+    }
+    .orta-left-1 h4{
+        font-size: 22px;
+    }
+    .orta-left p{
+        left: 100px;
+        top: 260px;
+    }
+    .orta-left button{
+        left: 100px;
+        top: 330px;
+    }
+    .orta-left button:hover{
+    height: 60px;
+    width: 33%;
+    top: 325px;
+    left: 95px;
+}
+}
+@media screen and (min-width : 525px) and (max-width : 767px)  {
+    .orta{
+        width: 525px;
+        height: 850px;
+        flex-direction: column;
+        }
+    .orta-left{
+        width: 100%;
+        }
+    .orta-right{
+        width: 100%;
+        }
+    .orta-right1 img{
+        width: 55%;
+        top: 60px;
+        left: 100px;
+        }
+    .sagmenu{
+        position: absolute;
+        top: 65px;
+        border-radius: 30px;
+        width: 40px;
+        height: 300px;
+        background-color: #FEB938;
+    }
+        #mrb{
+        left: 40px;
+        font-size: 30px;
+        top: 70px;
+    }
+    #ben{
+        left: 40px;
+        font-size: 50px;
+        top: 130px;
+    }
+    #mst{
+        top: -8px;
+        left: 150px;
+        font-size: 55px;
+    }
+    .orta-left-1{
+        left: 40px;
+        width: 87%;
+        top: 210px;
+    }
+    .orta-left-1 h4{
+        font-size: 22px;
+    }
+    .orta-left p{
+        left: 40px;
+        top: 260px;
+    }
+    .orta-left button{
+        left: 40px;
+        top: 330px;
+    }
+    .orta-left button:hover{
+    height: 60px;
+    width: 33%;
+    top: 325px;
+    left: 35px;
+}
+}
+@media screen and (min-width : 375px) and (max-width : 524px)  {
+    .orta{
+        width: 355px;
+        height: 850px;
+        flex-direction: column;
+        }
+    .orta-left{
+        width: 100%;
+        }
+    .orta-right{
+        width: 100%;
+        }
+    .orta-right1 img{
+        width: 55%;
+        top: 60px;
+        left: 70px;
+        }
+    .orta-right1{
+        width: 85%;
+    }
+    .sagmenu{
+        position: absolute;
+        top: 65px;
+        border-radius: 30px;
+        width: 40px;
+        height: 300px;
+        background-color: #FEB938;
+    }
+        #mrb{
+        left: 40px;
+        font-size: 20px;
+        top: 40px;
+    }
+    #ben{
+        left: 40px;
+        font-size: 35px;
+        top: 80px;
+    }
+    #mst{
+        top: -8px;
+        left: 110px;
+        font-size: 40px;
+    }
+    .orta-left-1{
+        left: 40px;
+        width: 85%;
+        top: 140px;
+    }
+    .orta-left-1 h4{
+        font-size: 20px;
+        width: 55%;
+    }
+    @keyframes mymove {
+    0%   {
+        left: 0px;}
+    25%  {
+        left: 65px;}
+    50%  {
+        left: 130px;}
+    75%  {
+         left: 65px;}
+    100%  {
+        left: 0px;}
+  }
+    .orta-left p{
+        left: 40px;
+        top: 190px;
+        width: 80%;
+    }
+    .orta-left button{
+        left: 40px;
+        top: 300px;
+        width: 40%;
+        height: 50px;
+    }
+        .orta-left button:hover{
+        height: 60px;
+        width: 43%;
+        top: 295px;
+        left: 35px;
+}
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="orta">
+            <div class="orta-left">
+                <b id="mrb">MERHABA!</b>
+                <b id="ben">BEN <b id="mst">MUSTAFA</b></b>
+                <div class="orta-left-1"><h4>WEB TASARIMCI</h4></div>
+                <p>Hakkımda detaylı bir bilgi almak için alt taraftaki butona tıklayınız.</p>
+                <form action="hakkimda.html"><button>Hakkımda</button></form>
+            </div>
+            <div class="orta-right">
+                <div class="orta-right1"><img src="image/6dcf90156092603.636112c252c82.png" alt=""></div>
+                <div class="orta-right2">
+                    <div class="sagmenu">
+                        <a href="index.html"><img id="img1" src="image/icons8-home-page-96.png" alt=""></a>
+                        <a href="hakkimda.html"><img id="img2" src="image/icons8-account-100.png" alt=""></a>
+                        <a href="giris.html"><img id="img3" src="image/icons8-enter-64.png" alt=""></a>
+                        <a href="kaydol.html"><img id="img4" src="image/ekle.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-ust">
+            <div class="footer-ust-left">
+                <a href="index.html">Anasayfa</a>
+                <a href="hakkimda.html">Hakkımda</a>
+                <a href="giris.html">Giriş</a>
+                <a href="kaydol.html">Kaydol</a>
+            </div>
+        </div>
+        <div class="footer-alt">
+            <div class="footer-alt-left">
+                <p>© Copyright 2023 | Tüm Hakları Saklıdır</p>
+            </div>
+                <div class="footer-alt-right">
+                    <a href="https://www.instagram.com/"><img src="image/new-Instagram-logo-white-glyph.png" alt=""></a>
+                    <a href="https://tr-tr.facebook.com/"><img src="image/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png" alt=""></a>
+                    <a href="https://twitter.com/?lang=tr"><img src="image/1277234-middle.fw.png" alt=""></a>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>

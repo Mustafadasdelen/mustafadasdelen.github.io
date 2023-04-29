@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/rain-wet-water-window-53470.jpeg);
+    width: 100%;
+    height: 946px;
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    color: #6c757d;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-ust{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    border-bottom: 1px solid #ECECEC;
+}
+.footer-ust-left a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #6c757d;
+}
+.footer-alt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    border-bottom: 1px solid #ECECEC;
+}
+.footer-alt-left{
+    display: flex;
+    font-size: 13px;
+}
+.footer-alt-right img{
+    color: #6c757d;
+    margin-left: 15px;
+}
+.orta{
+    display: flex;
+    width: 1500px;
+    height: 800px;
+    box-shadow: 5px 8px 10px 11px rgba(0,0,0,0.75);
+}
+.orta-left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+#mrb{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+#ben{
+    position: absolute;
+    top: 290px;
+    left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+#mst{
+    position: absolute;
+    color: #FEB938;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Tilt Prism', cursive;
+    top: -8px;
+    left: 170px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.orta-left-1{
+    display: flex;
+    position: relative;
+    background-color: #FEB938;
+    border-radius: 2px;
+    color: black;
+    height: 30px;
+    width: 62%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 380px;
+    left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.orta-left-1 h4{
+    position: absolute;
+    background-color: #FEB938;
+    border-radius: 2px;
+    color: black;
+    height: 30px;
+    width: 38%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    animation: mymove 10s infinite;
+}
+@keyframes mymove {
+    0%   {
+        left: 0px;}
+    25%  {
+        left: 140px;}
+    50%  {
+        left: 280px;}
+    75%  {
+         left: 140px;}
+    100%  {
+        left: 0px;}
+  }
+.orta-left p{
+    position: absolute;
+    color: rgb(68, 68, 68);
+    height: 30px;
+    width: 60%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 440px;
+    left: 150px;
+    font-size: 19px;
+
+}
+.orta-left button{
+    position: absolute;
+    color: white;
+    background-color: #FEB938;
+    border: 0;
+    border-radius: 30px;
+    height: 50px;
+    width: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 520px;
+    left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.orta-left button:hover{
+    position: absolute;
+    color: black;
+    background-color: #FEB938;
+    border: 0;
+    border-radius: 30px;
+    height: 60px;
+    width: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 515px;
+    left: 145px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.orta-right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: #ECECEC;
+    position: relative;
+}
+.orta-right1{
+    width: 90%;
+    height: 100%;
+}
+.orta-right1 img{
+    position: absolute;
+    top: 120px;
+    left: 114px;
+    width: 70%;
+    height: 70%;
+}
+.orta-right2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECECEC;
+    right: 0px;
+    width: 10%;
+    height: 100%;
+}
+.sagmenu{
+    position: absolute;
+    top: 250px;
+    border-radius: 30px;
+    width: 40px;
+    height: 300px;
+    background-color: #FEB938;
+}
+#img1{
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+#img1:hover {
+    position: absolute;
+    top: 37px;
+    left: 2px;
+    width: 36px;
+    height: 36px;
+}
+#img2{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+#img2:hover{
+    position: absolute;
+    top: 97px;
+    left: 2px;
+    width: 36px;
+    height: 36px;
+}
+#img3{
+    position: absolute;
+    top: 160px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+#img3:hover{
+    position: absolute;
+    top: 157px;
+    left: 2px;
+    width: 36px;
+    height: 36px;
+}
+#img4{
+    position: absolute;
+    top: 220px;
+    left: 7.5px;
+    width: 25px;
+    height: 25px;
+}
+#img4:hover{
+    position: absolute;
+    top: 217px;
+    left: 4.5px;
+    width: 31px;
+    height: 31px;
+}
+.hak-orta{
+    display: flex;
+    width: 1500px;
+    height: 800px;
+    box-shadow: 5px 8px 10px 11px rgba(0,0,0,0.75);
+}
+.hak-orta-left{
+    position: relative;
+    width: 18%;
+    height: 100%;
+    background-color: #FEB938;
+}
+.hak-orta-right{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 82%;
+    height: 100%;
+    background-color: #DDDDDD;
+}
+.hak-orta-right h1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    padding-top: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    width: 40%;
+    height: 80%;
+    color: black;
+    background-color: #FEB938;
+}
+.hak-orta-right-alt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 85%;
+    height: 65%;
+}
+.yazi{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #FEB938;
+}
+.yazi1{
+    width: 50%;
+    background-color: khaki;
+    text-align: justify;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yazi2{
+    width: 50%;
+    background-color: darkseagreen;
+    text-align: justify;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yazi3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: chocolate;
+    text-align: justify;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 140%;
+}
+.yazi4{
+    width: 50%;
+    background-color: bisque;
+    text-align: justify;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yazi3-left{
+    width: 40%;
+}
+.yazi3-right{
+    width: 60%;
+}
+.yazi3-alt{
+    display: flex;
+}
+.hak-orta-right-ust{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: #DDDDDD;
+    position: relative;
+    justify-content: center;
+}
+.hak-orta-left-ust{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #DDDDDD;
+}
+.hak-orta-left-ust img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.hak-orta-left-alt{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.hak-orta-left-alt a{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FEB938;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+}
+.hak-orta-left-alt a:hover{
+    color: white;
+}
+#ansyf{
+    position: absolute;
+    top: 140px;
+    text-decoration: none;
+}
+#hakkmd{
+    position: absolute;
+    top: 210px;
+    text-decoration: none;
+}
+#grs{
+    position: absolute;
+    top: 280px;
+    text-decoration: none;
+}
+#kydl{
+    position: absolute;
+    top: 350px;
+    text-decoration: none;
+}
+.grs-orta-right-ust{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.grs-orta-right-alt-form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-left: 5%;
+    width: 45%;
+    height: 50%;
+    border: 2px solid #FEB938;
+    border-radius: 10px;
+    box-shadow:  2px 2px 15px 4px;
+}
+.grs-orta-right-alt-form form{
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.grs-orta-right-alt-form input{
+    border-radius: 7px;
+    border: 0;
+    padding: 10px;
+    margin-top: 30px;
+}
+#textbox{
+    display: flex;
+    width: 86%;
+    height: 40px;
+}
+#hatırla{
+    cursor: pointer;
+    margin-right: 10px;
+}
+#untlnsifre{
+    margin-right: 15%;
+    cursor: pointer;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.grs-orta-right-alt-form a{
+    text-decoration: underline black;
+}
+#button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    border: 0;
+    margin-top: 30px;
+    background-color: #FEB938;
+    width: 86%;
+    height: 40px;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: black;
+    color: #FEB938;
+    transition: 1s;
+}
+.smedya{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 80%;
+    left: 12.5%;
+    width: 75%;
+    height: 40px;
+}
+.smedya a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.smedya img{
+    border-radius: 4px;
+}
+.kydl-orta-right-alt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 60%;
+    height: 50%;
+    border: 2px solid #FEB938;
+    border-radius: 10px;
+    box-shadow:  2px 2px 15px 4px;
+}
+.kydl-orta-right-alt form{
+    display: flex; flex-direction: column;
+    width: 100%;
+}
+.formdiv{
+    display: flex;
+    justify-content: space-around;
+}
+#textbox2{
+    display: flex;
+    width: 46%;
+    height: 40px;
+    border-radius: 7px;
+    border: 0;
+    padding: 10px;
+    margin-top: 20px;
+}
